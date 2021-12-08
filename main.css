@@ -1,0 +1,87 @@
+body {
+    
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+    
+}
+div{
+    margin:auto;
+}
+#sign-in-box{
+    width:400px;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(220,220,220);
+    border-radius: 5px;
+    padding:20px;
+}
+footer{
+    margin:auto;
+    display:block;
+    width:400px;
+
+    
+    
+}
+input[type=submit]{
+    width:400px;
+    padding: 7px;
+    background-color:gold;
+    border: 1px solid gray;
+    border-radius: 3px;
+
+
+}
+input[type=text]{
+    padding:7px;
+    width: 400px;
+}
+#logo-image{
+    padding:15px;
+    padding-bottom: 70px;
+}
+a {
+    color:blue;
+    text-decoration: none;
+}
+#new-to-amazon{
+    width:400px;
+    height:fit-content;
+    align-items: center;
+    color:gray;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10px;
+    
+}
+#create-account input{
+    text-align: center;
+    width:400px;
+    background-color:lightgray;
+}
+#copyright{
+    display:flex;
+    
+    font-size: 75%;
+}
+#password, #footer{
+    
+    display:flex;
+    justify-content: space-between;
+}
+#footer, #copyright{
+    display:flex;
+    width:275px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 65%;
+}
+hr{
+    width:100%;
+    margin-top: 50px;
+    margin-bottom: 30px;
+
+}
